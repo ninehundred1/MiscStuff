@@ -70,11 +70,11 @@ class TweetsStreamListener(tweepy.StreamListener):
 if __name__ == "__main__":
     """do twitter authentication here"""
     #At http://dev.twitter.com sign up for new application (need twitter account)
-    consumer_key="8scPLQZvsoxMyInFhkwAP2Dsd"
-    consumer_secret="dgpeAkdj9NNSJiXE4yOyTdPNBwUvYj7f7tJpSNkog3WxLKWaYc"
+    consumer_key="PERSONAL, GET FROM TWITTER"
+    consumer_secret="PERSONAL, GET FROM TWITTER"
     # get by https://dev.twitter.com/oauth/overview/application-owner-access-tokens
-    access_token="4060724685-uZoX5jJ6OTLko96rzDnuHMIdYvKK4iuaufos4cS"
-    access_token_secret="vqNk1uZ6KdkyWYRHPCSVw6K6rii0xTZT2KZBK4MnPG53A"
+    access_token="PERSONAL, GET FROM TWITTER"
+    access_token_secret="PERSONAL, GET FROM TWITTER"
     #get authorization
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
